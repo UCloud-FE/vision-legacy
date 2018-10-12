@@ -1,6 +1,6 @@
 {
     "name": "@ucloud-fe/vision-components",
-    "version": "1.0.1-0",
+    "version": "1.0.1",
     "description": "",
     "author": "https://github.com/tuoxiansp",
     "license": "MIT",
@@ -8,6 +8,9 @@
     "main": "dist/index.js",
     "module": "dist/index.es.js",
     "jsnext:main": "dist/index.es.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "engines": {
         "node": ">=8",
         "npm": ">=5"
@@ -58,8 +61,8 @@
     ],
     "dependencies": {
         "@material-ui/core": "^3.2.0",
-        "@ucloud-fe/vision-core": "^1.0.1-0",
-        "@ucloud-fe/vision-defaults": "^1.0.1-0",
+        "@ucloud-fe/vision-core": "^1.0.1",
+        "@ucloud-fe/vision-defaults": "^1.0.1",
         "nanoid": "^1.2.6",
         "shortid": "^2.2.13"
     }
