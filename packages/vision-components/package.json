@@ -1,6 +1,6 @@
 {
     "name": "@ucloud-fe/vision-components",
-    "version": "1.0.0",
+    "version": "1.0.0-0",
     "description": "",
     "author": "https://github.com/tuoxiansp",
     "license": "MIT",
@@ -58,8 +58,8 @@
     ],
     "dependencies": {
         "@material-ui/core": "^3.2.0",
-        "@ucloud-fe/vision-core": "^1.0.0",
-        "@ucloud-fe/vision-defaults": "^1.0.0",
+        "@ucloud-fe/vision-core": "^1.0.0-0",
+        "@ucloud-fe/vision-defaults": "^1.0.0-0",
         "nanoid": "^1.2.6",
         "shortid": "^2.2.13"
     }
