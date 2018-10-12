@@ -1,0 +1,1045 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: [] }
+2 verbose rootPath /Users/yutongchen/ucloud-vision-engine
+3 info version 2.11.0
+4 silly existsSync /Users/yutongchen/ucloud-vision-engine/VERSION
+5 silly initialize attempt
+6 silly npmConfig { registry: undefined,
+6 silly npmConfig   npmClient: undefined,
+6 silly npmConfig   npmClientArgs: undefined,
+6 silly npmConfig   mutex: undefined }
+7 silly initialize success
+8 silly execute attempt
+9 info Bootstrapping 3 packages
+10 info lifecycle preinstall
+11 silly runScript preinstall @ucloud-fe/vision-core
+12 silly @ucloud-fe/vision-core
+13 silly runScript preinstall @ucloud-fe/vision-defaults
+14 silly @ucloud-fe/vision-defaults
+15 silly runScript preinstall @ucloud-fe/vision-components
+16 silly @ucloud-fe/vision-components
+17 silly hasMatchingDependency @ucloud-fe/vision-components @ucloud-fe/vision-core
+18 silly hasMatchingDependency @ucloud-fe/vision-components @ucloud-fe/vision-defaults
+19 silly hasDependencyInstalled @ucloud-fe/vision-components babel-core
+20 silly dependencyIsSatisfied [ 'babel-core',
+20 silly dependencyIsSatisfied   '^6.26.3',
+20 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+21 verbose dependencyIsSatisfied babel-core false
+22 silly hasDependencyInstalled @ucloud-fe/vision-core babel-core
+23 silly dependencyIsSatisfied [ 'babel-core',
+23 silly dependencyIsSatisfied   '^6.26.3',
+23 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+24 verbose dependencyIsSatisfied babel-core false
+25 silly hasDependencyInstalled @ucloud-fe/vision-defaults babel-core
+26 silly dependencyIsSatisfied [ 'babel-core',
+26 silly dependencyIsSatisfied   '^6.26.3',
+26 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+27 verbose dependencyIsSatisfied babel-core false
+28 silly hasDependencyInstalled @ucloud-fe/vision-components babel-eslint
+29 silly dependencyIsSatisfied [ 'babel-eslint',
+29 silly dependencyIsSatisfied   '^8.2.5',
+29 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+30 verbose dependencyIsSatisfied babel-eslint false
+31 silly hasDependencyInstalled @ucloud-fe/vision-core babel-eslint
+32 silly dependencyIsSatisfied [ 'babel-eslint',
+32 silly dependencyIsSatisfied   '^8.2.5',
+32 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+33 verbose dependencyIsSatisfied babel-eslint false
+34 silly hasDependencyInstalled @ucloud-fe/vision-defaults babel-eslint
+35 silly dependencyIsSatisfied [ 'babel-eslint',
+35 silly dependencyIsSatisfied   '^8.2.5',
+35 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+36 verbose dependencyIsSatisfied babel-eslint false
+37 silly hasDependencyInstalled @ucloud-fe/vision-components babel-plugin-external-helpers
+38 silly dependencyIsSatisfied [ 'babel-plugin-external-helpers',
+38 silly dependencyIsSatisfied   '^6.22.0',
+38 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+39 verbose dependencyIsSatisfied babel-plugin-external-helpers false
+40 silly hasDependencyInstalled @ucloud-fe/vision-core babel-plugin-external-helpers
+41 silly dependencyIsSatisfied [ 'babel-plugin-external-helpers',
+41 silly dependencyIsSatisfied   '^6.22.0',
+41 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+42 verbose dependencyIsSatisfied babel-plugin-external-helpers false
+43 silly hasDependencyInstalled @ucloud-fe/vision-defaults babel-plugin-external-helpers
+44 silly dependencyIsSatisfied [ 'babel-plugin-external-helpers',
+44 silly dependencyIsSatisfied   '^6.22.0',
+44 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+45 verbose dependencyIsSatisfied babel-plugin-external-helpers false
+46 silly hasDependencyInstalled @ucloud-fe/vision-components babel-preset-env
+47 silly dependencyIsSatisfied [ 'babel-preset-env',
+47 silly dependencyIsSatisfied   '^1.7.0',
+47 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+48 verbose dependencyIsSatisfied babel-preset-env false
+49 silly hasDependencyInstalled @ucloud-fe/vision-core babel-preset-env
+50 silly dependencyIsSatisfied [ 'babel-preset-env',
+50 silly dependencyIsSatisfied   '^1.7.0',
+50 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+51 verbose dependencyIsSatisfied babel-preset-env false
+52 silly hasDependencyInstalled @ucloud-fe/vision-defaults babel-preset-env
+53 silly dependencyIsSatisfied [ 'babel-preset-env',
+53 silly dependencyIsSatisfied   '^1.7.0',
+53 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+54 verbose dependencyIsSatisfied babel-preset-env false
+55 silly hasDependencyInstalled @ucloud-fe/vision-components babel-preset-react
+56 silly dependencyIsSatisfied [ 'babel-preset-react',
+56 silly dependencyIsSatisfied   '^6.24.1',
+56 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+57 verbose dependencyIsSatisfied babel-preset-react false
+58 silly hasDependencyInstalled @ucloud-fe/vision-core babel-preset-react
+59 silly dependencyIsSatisfied [ 'babel-preset-react',
+59 silly dependencyIsSatisfied   '^6.24.1',
+59 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+60 verbose dependencyIsSatisfied babel-preset-react false
+61 silly hasDependencyInstalled @ucloud-fe/vision-defaults babel-preset-react
+62 silly dependencyIsSatisfied [ 'babel-preset-react',
+62 silly dependencyIsSatisfied   '^6.24.1',
+62 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+63 verbose dependencyIsSatisfied babel-preset-react false
+64 silly hasDependencyInstalled @ucloud-fe/vision-components babel-preset-stage-0
+65 silly dependencyIsSatisfied [ 'babel-preset-stage-0',
+65 silly dependencyIsSatisfied   '^6.24.1',
+65 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+66 verbose dependencyIsSatisfied babel-preset-stage-0 false
+67 silly hasDependencyInstalled @ucloud-fe/vision-core babel-preset-stage-0
+68 silly dependencyIsSatisfied [ 'babel-preset-stage-0',
+68 silly dependencyIsSatisfied   '^6.24.1',
+68 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+69 verbose dependencyIsSatisfied babel-preset-stage-0 false
+70 silly hasDependencyInstalled @ucloud-fe/vision-defaults babel-preset-stage-0
+71 silly dependencyIsSatisfied [ 'babel-preset-stage-0',
+71 silly dependencyIsSatisfied   '^6.24.1',
+71 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+72 verbose dependencyIsSatisfied babel-preset-stage-0 false
+73 silly hasDependencyInstalled @ucloud-fe/vision-components cross-env
+74 silly dependencyIsSatisfied [ 'cross-env',
+74 silly dependencyIsSatisfied   '^5.1.4',
+74 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+75 verbose dependencyIsSatisfied cross-env false
+76 silly hasDependencyInstalled @ucloud-fe/vision-core cross-env
+77 silly dependencyIsSatisfied [ 'cross-env',
+77 silly dependencyIsSatisfied   '^5.1.4',
+77 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+78 verbose dependencyIsSatisfied cross-env false
+79 silly hasDependencyInstalled @ucloud-fe/vision-defaults cross-env
+80 silly dependencyIsSatisfied [ 'cross-env',
+80 silly dependencyIsSatisfied   '^5.1.4',
+80 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+81 verbose dependencyIsSatisfied cross-env false
+82 silly hasDependencyInstalled @ucloud-fe/vision-components eslint
+83 silly dependencyIsSatisfied [ 'eslint',
+83 silly dependencyIsSatisfied   '^5.0.1',
+83 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+84 verbose dependencyIsSatisfied eslint false
+85 silly hasDependencyInstalled @ucloud-fe/vision-core eslint
+86 silly dependencyIsSatisfied [ 'eslint',
+86 silly dependencyIsSatisfied   '^5.0.1',
+86 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+87 verbose dependencyIsSatisfied eslint false
+88 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint
+89 silly dependencyIsSatisfied [ 'eslint',
+89 silly dependencyIsSatisfied   '^5.0.1',
+89 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+90 verbose dependencyIsSatisfied eslint false
+91 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-config-standard
+92 silly dependencyIsSatisfied [ 'eslint-config-standard',
+92 silly dependencyIsSatisfied   '^11.0.0',
+92 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+93 verbose dependencyIsSatisfied eslint-config-standard false
+94 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-config-standard
+95 silly dependencyIsSatisfied [ 'eslint-config-standard',
+95 silly dependencyIsSatisfied   '^11.0.0',
+95 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+96 verbose dependencyIsSatisfied eslint-config-standard false
+97 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-config-standard
+98 silly dependencyIsSatisfied [ 'eslint-config-standard',
+98 silly dependencyIsSatisfied   '^11.0.0',
+98 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+99 verbose dependencyIsSatisfied eslint-config-standard false
+100 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-config-standard-react
+101 silly dependencyIsSatisfied [ 'eslint-config-standard-react',
+101 silly dependencyIsSatisfied   '^6.0.0',
+101 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+102 verbose dependencyIsSatisfied eslint-config-standard-react false
+103 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-config-standard-react
+104 silly dependencyIsSatisfied [ 'eslint-config-standard-react',
+104 silly dependencyIsSatisfied   '^6.0.0',
+104 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+105 verbose dependencyIsSatisfied eslint-config-standard-react false
+106 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-config-standard-react
+107 silly dependencyIsSatisfied [ 'eslint-config-standard-react',
+107 silly dependencyIsSatisfied   '^6.0.0',
+107 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+108 verbose dependencyIsSatisfied eslint-config-standard-react false
+109 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-plugin-import
+110 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+110 silly dependencyIsSatisfied   '^2.13.0',
+110 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+111 verbose dependencyIsSatisfied eslint-plugin-import false
+112 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-plugin-import
+113 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+113 silly dependencyIsSatisfied   '^2.13.0',
+113 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+114 verbose dependencyIsSatisfied eslint-plugin-import false
+115 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-plugin-import
+116 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+116 silly dependencyIsSatisfied   '^2.13.0',
+116 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+117 verbose dependencyIsSatisfied eslint-plugin-import false
+118 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-plugin-node
+119 silly dependencyIsSatisfied [ 'eslint-plugin-node',
+119 silly dependencyIsSatisfied   '^7.0.1',
+119 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+120 verbose dependencyIsSatisfied eslint-plugin-node false
+121 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-plugin-node
+122 silly dependencyIsSatisfied [ 'eslint-plugin-node',
+122 silly dependencyIsSatisfied   '^7.0.1',
+122 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+123 verbose dependencyIsSatisfied eslint-plugin-node false
+124 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-plugin-node
+125 silly dependencyIsSatisfied [ 'eslint-plugin-node',
+125 silly dependencyIsSatisfied   '^7.0.1',
+125 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+126 verbose dependencyIsSatisfied eslint-plugin-node false
+127 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-plugin-promise
+128 silly dependencyIsSatisfied [ 'eslint-plugin-promise',
+128 silly dependencyIsSatisfied   '^4.0.0',
+128 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+129 verbose dependencyIsSatisfied eslint-plugin-promise false
+130 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-plugin-promise
+131 silly dependencyIsSatisfied [ 'eslint-plugin-promise',
+131 silly dependencyIsSatisfied   '^4.0.0',
+131 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+132 verbose dependencyIsSatisfied eslint-plugin-promise false
+133 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-plugin-promise
+134 silly dependencyIsSatisfied [ 'eslint-plugin-promise',
+134 silly dependencyIsSatisfied   '^4.0.0',
+134 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+135 verbose dependencyIsSatisfied eslint-plugin-promise false
+136 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-plugin-react
+137 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+137 silly dependencyIsSatisfied   '^7.10.0',
+137 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+138 verbose dependencyIsSatisfied eslint-plugin-react false
+139 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-plugin-react
+140 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+140 silly dependencyIsSatisfied   '^7.10.0',
+140 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+141 verbose dependencyIsSatisfied eslint-plugin-react false
+142 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-plugin-react
+143 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+143 silly dependencyIsSatisfied   '^7.10.0',
+143 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+144 verbose dependencyIsSatisfied eslint-plugin-react false
+145 silly hasDependencyInstalled @ucloud-fe/vision-components eslint-plugin-standard
+146 silly dependencyIsSatisfied [ 'eslint-plugin-standard',
+146 silly dependencyIsSatisfied   '^3.1.0',
+146 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+147 verbose dependencyIsSatisfied eslint-plugin-standard false
+148 silly hasDependencyInstalled @ucloud-fe/vision-core eslint-plugin-standard
+149 silly dependencyIsSatisfied [ 'eslint-plugin-standard',
+149 silly dependencyIsSatisfied   '^3.1.0',
+149 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+150 verbose dependencyIsSatisfied eslint-plugin-standard false
+151 silly hasDependencyInstalled @ucloud-fe/vision-defaults eslint-plugin-standard
+152 silly dependencyIsSatisfied [ 'eslint-plugin-standard',
+152 silly dependencyIsSatisfied   '^3.1.0',
+152 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+153 verbose dependencyIsSatisfied eslint-plugin-standard false
+154 silly hasDependencyInstalled @ucloud-fe/vision-components gh-pages
+155 silly dependencyIsSatisfied [ 'gh-pages',
+155 silly dependencyIsSatisfied   '^1.2.0',
+155 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+156 verbose dependencyIsSatisfied gh-pages false
+157 silly hasDependencyInstalled @ucloud-fe/vision-core gh-pages
+158 silly dependencyIsSatisfied [ 'gh-pages',
+158 silly dependencyIsSatisfied   '^1.2.0',
+158 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+159 verbose dependencyIsSatisfied gh-pages false
+160 silly hasDependencyInstalled @ucloud-fe/vision-defaults gh-pages
+161 silly dependencyIsSatisfied [ 'gh-pages',
+161 silly dependencyIsSatisfied   '^1.2.0',
+161 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+162 verbose dependencyIsSatisfied gh-pages false
+163 silly hasDependencyInstalled @ucloud-fe/vision-components react
+164 silly dependencyIsSatisfied [ 'react',
+164 silly dependencyIsSatisfied   '^16.4.1',
+164 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+165 verbose dependencyIsSatisfied react false
+166 silly hasDependencyInstalled @ucloud-fe/vision-core react
+167 silly dependencyIsSatisfied [ 'react',
+167 silly dependencyIsSatisfied   '^16.4.1',
+167 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+168 verbose dependencyIsSatisfied react false
+169 silly hasDependencyInstalled @ucloud-fe/vision-defaults react
+170 silly dependencyIsSatisfied [ 'react',
+170 silly dependencyIsSatisfied   '^16.4.1',
+170 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+171 verbose dependencyIsSatisfied react false
+172 silly hasDependencyInstalled @ucloud-fe/vision-components react-dom
+173 silly dependencyIsSatisfied [ 'react-dom',
+173 silly dependencyIsSatisfied   '^16.4.1',
+173 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+174 verbose dependencyIsSatisfied react-dom false
+175 silly hasDependencyInstalled @ucloud-fe/vision-core react-dom
+176 silly dependencyIsSatisfied [ 'react-dom',
+176 silly dependencyIsSatisfied   '^16.4.1',
+176 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+177 verbose dependencyIsSatisfied react-dom false
+178 silly hasDependencyInstalled @ucloud-fe/vision-defaults react-dom
+179 silly dependencyIsSatisfied [ 'react-dom',
+179 silly dependencyIsSatisfied   '^16.4.1',
+179 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+180 verbose dependencyIsSatisfied react-dom false
+181 silly hasDependencyInstalled @ucloud-fe/vision-components react-scripts
+182 silly dependencyIsSatisfied [ 'react-scripts',
+182 silly dependencyIsSatisfied   '^1.1.4',
+182 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+183 verbose dependencyIsSatisfied react-scripts false
+184 silly hasDependencyInstalled @ucloud-fe/vision-core react-scripts
+185 silly dependencyIsSatisfied [ 'react-scripts',
+185 silly dependencyIsSatisfied   '^1.1.4',
+185 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+186 verbose dependencyIsSatisfied react-scripts false
+187 silly hasDependencyInstalled @ucloud-fe/vision-defaults react-scripts
+188 silly dependencyIsSatisfied [ 'react-scripts',
+188 silly dependencyIsSatisfied   '^1.1.4',
+188 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+189 verbose dependencyIsSatisfied react-scripts false
+190 silly hasDependencyInstalled @ucloud-fe/vision-components rollup
+191 silly dependencyIsSatisfied [ 'rollup',
+191 silly dependencyIsSatisfied   '^0.64.1',
+191 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+192 verbose dependencyIsSatisfied rollup false
+193 silly hasDependencyInstalled @ucloud-fe/vision-core rollup
+194 silly dependencyIsSatisfied [ 'rollup',
+194 silly dependencyIsSatisfied   '^0.64.1',
+194 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+195 verbose dependencyIsSatisfied rollup false
+196 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup
+197 silly dependencyIsSatisfied [ 'rollup',
+197 silly dependencyIsSatisfied   '^0.64.1',
+197 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+198 verbose dependencyIsSatisfied rollup false
+199 silly hasDependencyInstalled @ucloud-fe/vision-components rollup-plugin-babel
+200 silly dependencyIsSatisfied [ 'rollup-plugin-babel',
+200 silly dependencyIsSatisfied   '^3.0.7',
+200 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+201 verbose dependencyIsSatisfied rollup-plugin-babel false
+202 silly hasDependencyInstalled @ucloud-fe/vision-core rollup-plugin-babel
+203 silly dependencyIsSatisfied [ 'rollup-plugin-babel',
+203 silly dependencyIsSatisfied   '^3.0.7',
+203 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+204 verbose dependencyIsSatisfied rollup-plugin-babel false
+205 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup-plugin-babel
+206 silly dependencyIsSatisfied [ 'rollup-plugin-babel',
+206 silly dependencyIsSatisfied   '^3.0.7',
+206 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+207 verbose dependencyIsSatisfied rollup-plugin-babel false
+208 silly hasDependencyInstalled @ucloud-fe/vision-components rollup-plugin-commonjs
+209 silly dependencyIsSatisfied [ 'rollup-plugin-commonjs',
+209 silly dependencyIsSatisfied   '^9.1.3',
+209 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+210 verbose dependencyIsSatisfied rollup-plugin-commonjs false
+211 silly hasDependencyInstalled @ucloud-fe/vision-core rollup-plugin-commonjs
+212 silly dependencyIsSatisfied [ 'rollup-plugin-commonjs',
+212 silly dependencyIsSatisfied   '^9.1.3',
+212 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+213 verbose dependencyIsSatisfied rollup-plugin-commonjs false
+214 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup-plugin-commonjs
+215 silly dependencyIsSatisfied [ 'rollup-plugin-commonjs',
+215 silly dependencyIsSatisfied   '^9.1.3',
+215 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+216 verbose dependencyIsSatisfied rollup-plugin-commonjs false
+217 silly hasDependencyInstalled @ucloud-fe/vision-components rollup-plugin-node-resolve
+218 silly dependencyIsSatisfied [ 'rollup-plugin-node-resolve',
+218 silly dependencyIsSatisfied   '^3.3.0',
+218 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+219 verbose dependencyIsSatisfied rollup-plugin-node-resolve false
+220 silly hasDependencyInstalled @ucloud-fe/vision-core rollup-plugin-node-resolve
+221 silly dependencyIsSatisfied [ 'rollup-plugin-node-resolve',
+221 silly dependencyIsSatisfied   '^3.3.0',
+221 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+222 verbose dependencyIsSatisfied rollup-plugin-node-resolve false
+223 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup-plugin-node-resolve
+224 silly dependencyIsSatisfied [ 'rollup-plugin-node-resolve',
+224 silly dependencyIsSatisfied   '^3.3.0',
+224 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+225 verbose dependencyIsSatisfied rollup-plugin-node-resolve false
+226 silly hasDependencyInstalled @ucloud-fe/vision-components rollup-plugin-peer-deps-external
+227 silly dependencyIsSatisfied [ 'rollup-plugin-peer-deps-external',
+227 silly dependencyIsSatisfied   '^2.2.0',
+227 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+228 verbose dependencyIsSatisfied rollup-plugin-peer-deps-external false
+229 silly hasDependencyInstalled @ucloud-fe/vision-core rollup-plugin-peer-deps-external
+230 silly dependencyIsSatisfied [ 'rollup-plugin-peer-deps-external',
+230 silly dependencyIsSatisfied   '^2.2.0',
+230 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+231 verbose dependencyIsSatisfied rollup-plugin-peer-deps-external false
+232 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup-plugin-peer-deps-external
+233 silly dependencyIsSatisfied [ 'rollup-plugin-peer-deps-external',
+233 silly dependencyIsSatisfied   '^2.2.0',
+233 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+234 verbose dependencyIsSatisfied rollup-plugin-peer-deps-external false
+235 silly hasDependencyInstalled @ucloud-fe/vision-components rollup-plugin-postcss
+236 silly dependencyIsSatisfied [ 'rollup-plugin-postcss',
+236 silly dependencyIsSatisfied   '^1.6.2',
+236 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+237 verbose dependencyIsSatisfied rollup-plugin-postcss false
+238 silly hasDependencyInstalled @ucloud-fe/vision-core rollup-plugin-postcss
+239 silly dependencyIsSatisfied [ 'rollup-plugin-postcss',
+239 silly dependencyIsSatisfied   '^1.6.2',
+239 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+240 verbose dependencyIsSatisfied rollup-plugin-postcss false
+241 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup-plugin-postcss
+242 silly dependencyIsSatisfied [ 'rollup-plugin-postcss',
+242 silly dependencyIsSatisfied   '^1.6.2',
+242 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+243 verbose dependencyIsSatisfied rollup-plugin-postcss false
+244 silly hasDependencyInstalled @ucloud-fe/vision-components rollup-plugin-url
+245 silly dependencyIsSatisfied [ 'rollup-plugin-url',
+245 silly dependencyIsSatisfied   '^1.4.0',
+245 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+246 verbose dependencyIsSatisfied rollup-plugin-url false
+247 silly hasDependencyInstalled @ucloud-fe/vision-core rollup-plugin-url
+248 silly dependencyIsSatisfied [ 'rollup-plugin-url',
+248 silly dependencyIsSatisfied   '^1.4.0',
+248 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+249 verbose dependencyIsSatisfied rollup-plugin-url false
+250 silly hasDependencyInstalled @ucloud-fe/vision-defaults rollup-plugin-url
+251 silly dependencyIsSatisfied [ 'rollup-plugin-url',
+251 silly dependencyIsSatisfied   '^1.4.0',
+251 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+252 verbose dependencyIsSatisfied rollup-plugin-url false
+253 silly hasDependencyInstalled @ucloud-fe/vision-components @material-ui/core
+254 silly dependencyIsSatisfied [ '@material-ui/core',
+254 silly dependencyIsSatisfied   '^3.2.0',
+254 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+255 verbose dependencyIsSatisfied @material-ui/core false
+256 silly hasDependencyInstalled @ucloud-fe/vision-components shortid
+257 silly dependencyIsSatisfied [ 'shortid',
+257 silly dependencyIsSatisfied   '^2.2.13',
+257 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules' ]
+258 verbose dependencyIsSatisfied shortid false
+259 silly hasDependencyInstalled @ucloud-fe/vision-core immutable
+260 silly dependencyIsSatisfied [ 'immutable',
+260 silly dependencyIsSatisfied   '4.0.0-rc.9',
+260 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+261 verbose dependencyIsSatisfied immutable false
+262 silly hasDependencyInstalled @ucloud-fe/vision-core invariant
+263 silly dependencyIsSatisfied [ 'invariant',
+263 silly dependencyIsSatisfied   '^2.2.4',
+263 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+264 verbose dependencyIsSatisfied invariant false
+265 silly hasDependencyInstalled @ucloud-fe/vision-core recompose
+266 silly dependencyIsSatisfied [ 'recompose',
+266 silly dependencyIsSatisfied   '^0.30.0',
+266 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/node_modules' ]
+267 verbose dependencyIsSatisfied recompose false
+268 silly hasDependencyInstalled @ucloud-fe/vision-defaults is-in-browser
+269 silly dependencyIsSatisfied [ 'is-in-browser',
+269 silly dependencyIsSatisfied   '^1.1.3',
+269 silly dependencyIsSatisfied   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/node_modules' ]
+270 verbose dependencyIsSatisfied is-in-browser false
+271 silly root dependencies []
+272 silly leaf dependencies {
+272 silly leaf dependencies   "@ucloud-fe/vision-components": [
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-core@^6.26.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-eslint@^8.2.5",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-plugin-external-helpers@^6.22.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-env@^1.7.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-stage-0@^6.24.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "cross-env@^5.1.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint@^5.0.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-config-standard@^11.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-config-standard-react@^6.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.13.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-node@^7.0.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-promise@^4.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.10.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-standard@^3.1.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "gh-pages@^1.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react@^16.4.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react-dom@^16.4.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react-scripts@^1.1.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup@^0.64.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-babel@^3.0.7",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-commonjs@^9.1.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-node-resolve@^3.3.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-peer-deps-external@^2.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-postcss@^1.6.2",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-url@^1.4.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "@material-ui/core@^3.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "shortid@^2.2.13",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     }
+272 silly leaf dependencies   ],
+272 silly leaf dependencies   "@ucloud-fe/vision-core": [
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-core@^6.26.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-eslint@^8.2.5",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-plugin-external-helpers@^6.22.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-env@^1.7.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-stage-0@^6.24.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "cross-env@^5.1.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint@^5.0.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-config-standard@^11.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-config-standard-react@^6.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.13.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-node@^7.0.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-promise@^4.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.10.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-standard@^3.1.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "gh-pages@^1.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react@^16.4.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react-dom@^16.4.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react-scripts@^1.1.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup@^0.64.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-babel@^3.0.7",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-commonjs@^9.1.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-node-resolve@^3.3.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-peer-deps-external@^2.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-postcss@^1.6.2",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-url@^1.4.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "immutable@4.0.0-rc.9",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "invariant@^2.2.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "recompose@^0.30.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     }
+272 silly leaf dependencies   ],
+272 silly leaf dependencies   "@ucloud-fe/vision-defaults": [
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-core@^6.26.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-eslint@^8.2.5",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-plugin-external-helpers@^6.22.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-env@^1.7.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "babel-preset-stage-0@^6.24.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "cross-env@^5.1.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint@^5.0.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-config-standard@^11.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-config-standard-react@^6.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.13.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-node@^7.0.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-promise@^4.0.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.10.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "eslint-plugin-standard@^3.1.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "gh-pages@^1.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react@^16.4.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react-dom@^16.4.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "react-scripts@^1.1.4",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup@^0.64.1",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-babel@^3.0.7",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-commonjs@^9.1.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-node-resolve@^3.3.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-peer-deps-external@^2.2.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-postcss@^1.6.2",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "rollup-plugin-url@^1.4.0",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     },
+272 silly leaf dependencies     {
+272 silly leaf dependencies       "dependency": "is-in-browser@^1.1.3",
+272 silly leaf dependencies       "isSatisfied": false
+272 silly leaf dependencies     }
+272 silly leaf dependencies   ]
+272 silly leaf dependencies }
+273 info Installing external dependencies
+274 verbose actions 3 actions, concurrency 4
+275 silly installInDir vision-components [ 'babel-core@^6.26.3',
+275 silly installInDir   'babel-eslint@^8.2.5',
+275 silly installInDir   'babel-plugin-external-helpers@^6.22.0',
+275 silly installInDir   'babel-preset-env@^1.7.0',
+275 silly installInDir   'babel-preset-react@^6.24.1',
+275 silly installInDir   'babel-preset-stage-0@^6.24.1',
+275 silly installInDir   'cross-env@^5.1.4',
+275 silly installInDir   'eslint@^5.0.1',
+275 silly installInDir   'eslint-config-standard@^11.0.0',
+275 silly installInDir   'eslint-config-standard-react@^6.0.0',
+275 silly installInDir   'eslint-plugin-import@^2.13.0',
+275 silly installInDir   'eslint-plugin-node@^7.0.1',
+275 silly installInDir   'eslint-plugin-promise@^4.0.0',
+275 silly installInDir   'eslint-plugin-react@^7.10.0',
+275 silly installInDir   'eslint-plugin-standard@^3.1.0',
+275 silly installInDir   'gh-pages@^1.2.0',
+275 silly installInDir   'react@^16.4.1',
+275 silly installInDir   'react-dom@^16.4.1',
+275 silly installInDir   'react-scripts@^1.1.4',
+275 silly installInDir   'rollup@^0.64.1',
+275 silly installInDir   'rollup-plugin-babel@^3.0.7',
+275 silly installInDir   'rollup-plugin-commonjs@^9.1.3',
+275 silly installInDir   'rollup-plugin-node-resolve@^3.3.0',
+275 silly installInDir   'rollup-plugin-peer-deps-external@^2.2.0',
+275 silly installInDir   'rollup-plugin-postcss@^1.6.2',
+275 silly installInDir   'rollup-plugin-url@^1.4.0',
+275 silly installInDir   '@material-ui/core@^3.2.0',
+275 silly installInDir   'shortid@^2.2.13' ]
+276 silly installInDir backup /Users/yutongchen/ucloud-vision-engine/packages/vision-components/package.json
+277 silly rename [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/package.json',
+277 silly rename   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/package.json.lerna_backup' ]
+278 silly installInDir vision-core [ 'babel-core@^6.26.3',
+278 silly installInDir   'babel-eslint@^8.2.5',
+278 silly installInDir   'babel-plugin-external-helpers@^6.22.0',
+278 silly installInDir   'babel-preset-env@^1.7.0',
+278 silly installInDir   'babel-preset-react@^6.24.1',
+278 silly installInDir   'babel-preset-stage-0@^6.24.1',
+278 silly installInDir   'cross-env@^5.1.4',
+278 silly installInDir   'eslint@^5.0.1',
+278 silly installInDir   'eslint-config-standard@^11.0.0',
+278 silly installInDir   'eslint-config-standard-react@^6.0.0',
+278 silly installInDir   'eslint-plugin-import@^2.13.0',
+278 silly installInDir   'eslint-plugin-node@^7.0.1',
+278 silly installInDir   'eslint-plugin-promise@^4.0.0',
+278 silly installInDir   'eslint-plugin-react@^7.10.0',
+278 silly installInDir   'eslint-plugin-standard@^3.1.0',
+278 silly installInDir   'gh-pages@^1.2.0',
+278 silly installInDir   'react@^16.4.1',
+278 silly installInDir   'react-dom@^16.4.1',
+278 silly installInDir   'react-scripts@^1.1.4',
+278 silly installInDir   'rollup@^0.64.1',
+278 silly installInDir   'rollup-plugin-babel@^3.0.7',
+278 silly installInDir   'rollup-plugin-commonjs@^9.1.3',
+278 silly installInDir   'rollup-plugin-node-resolve@^3.3.0',
+278 silly installInDir   'rollup-plugin-peer-deps-external@^2.2.0',
+278 silly installInDir   'rollup-plugin-postcss@^1.6.2',
+278 silly installInDir   'rollup-plugin-url@^1.4.0',
+278 silly installInDir   'immutable@4.0.0-rc.9',
+278 silly installInDir   'invariant@^2.2.4',
+278 silly installInDir   'recompose@^0.30.0' ]
+279 silly installInDir backup /Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json
+280 silly rename [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json',
+280 silly rename   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json.lerna_backup' ]
+281 silly installInDir vision-defaults [ 'babel-core@^6.26.3',
+281 silly installInDir   'babel-eslint@^8.2.5',
+281 silly installInDir   'babel-plugin-external-helpers@^6.22.0',
+281 silly installInDir   'babel-preset-env@^1.7.0',
+281 silly installInDir   'babel-preset-react@^6.24.1',
+281 silly installInDir   'babel-preset-stage-0@^6.24.1',
+281 silly installInDir   'cross-env@^5.1.4',
+281 silly installInDir   'eslint@^5.0.1',
+281 silly installInDir   'eslint-config-standard@^11.0.0',
+281 silly installInDir   'eslint-config-standard-react@^6.0.0',
+281 silly installInDir   'eslint-plugin-import@^2.13.0',
+281 silly installInDir   'eslint-plugin-node@^7.0.1',
+281 silly installInDir   'eslint-plugin-promise@^4.0.0',
+281 silly installInDir   'eslint-plugin-react@^7.10.0',
+281 silly installInDir   'eslint-plugin-standard@^3.1.0',
+281 silly installInDir   'gh-pages@^1.2.0',
+281 silly installInDir   'react@^16.4.1',
+281 silly installInDir   'react-dom@^16.4.1',
+281 silly installInDir   'react-scripts@^1.1.4',
+281 silly installInDir   'rollup@^0.64.1',
+281 silly installInDir   'rollup-plugin-babel@^3.0.7',
+281 silly installInDir   'rollup-plugin-commonjs@^9.1.3',
+281 silly installInDir   'rollup-plugin-node-resolve@^3.3.0',
+281 silly installInDir   'rollup-plugin-peer-deps-external@^2.2.0',
+281 silly installInDir   'rollup-plugin-postcss@^1.6.2',
+281 silly installInDir   'rollup-plugin-url@^1.4.0',
+281 silly installInDir   'is-in-browser@^1.1.3' ]
+282 silly installInDir backup /Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json
+283 silly rename [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json',
+283 silly rename   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json.lerna_backup' ]
+284 silly installInDir writing tempJson { dependencies:
+284 silly installInDir    { 'babel-core': '^6.26.3',
+284 silly installInDir      'babel-eslint': '^8.2.5',
+284 silly installInDir      'babel-plugin-external-helpers': '^6.22.0',
+284 silly installInDir      'babel-preset-env': '^1.7.0',
+284 silly installInDir      'babel-preset-react': '^6.24.1',
+284 silly installInDir      'babel-preset-stage-0': '^6.24.1',
+284 silly installInDir      'cross-env': '^5.1.4',
+284 silly installInDir      eslint: '^5.0.1',
+284 silly installInDir      'eslint-config-standard': '^11.0.0',
+284 silly installInDir      'eslint-config-standard-react': '^6.0.0',
+284 silly installInDir      'eslint-plugin-import': '^2.13.0',
+284 silly installInDir      'eslint-plugin-node': '^7.0.1',
+284 silly installInDir      'eslint-plugin-promise': '^4.0.0',
+284 silly installInDir      'eslint-plugin-react': '^7.10.0',
+284 silly installInDir      'eslint-plugin-standard': '^3.1.0',
+284 silly installInDir      'gh-pages': '^1.2.0',
+284 silly installInDir      react: '^16.4.1',
+284 silly installInDir      'react-dom': '^16.4.1',
+284 silly installInDir      'react-scripts': '^1.1.4',
+284 silly installInDir      rollup: '^0.64.1',
+284 silly installInDir      'rollup-plugin-babel': '^3.0.7',
+284 silly installInDir      'rollup-plugin-commonjs': '^9.1.3',
+284 silly installInDir      'rollup-plugin-node-resolve': '^3.3.0',
+284 silly installInDir      'rollup-plugin-peer-deps-external': '^2.2.0',
+284 silly installInDir      'rollup-plugin-postcss': '^1.6.2',
+284 silly installInDir      'rollup-plugin-url': '^1.4.0',
+284 silly installInDir      '@material-ui/core': '^3.2.0',
+284 silly installInDir      shortid: '^2.2.13' } }
+285 silly installInDir writing tempJson { dependencies:
+285 silly installInDir    { 'babel-core': '^6.26.3',
+285 silly installInDir      'babel-eslint': '^8.2.5',
+285 silly installInDir      'babel-plugin-external-helpers': '^6.22.0',
+285 silly installInDir      'babel-preset-env': '^1.7.0',
+285 silly installInDir      'babel-preset-react': '^6.24.1',
+285 silly installInDir      'babel-preset-stage-0': '^6.24.1',
+285 silly installInDir      'cross-env': '^5.1.4',
+285 silly installInDir      eslint: '^5.0.1',
+285 silly installInDir      'eslint-config-standard': '^11.0.0',
+285 silly installInDir      'eslint-config-standard-react': '^6.0.0',
+285 silly installInDir      'eslint-plugin-import': '^2.13.0',
+285 silly installInDir      'eslint-plugin-node': '^7.0.1',
+285 silly installInDir      'eslint-plugin-promise': '^4.0.0',
+285 silly installInDir      'eslint-plugin-react': '^7.10.0',
+285 silly installInDir      'eslint-plugin-standard': '^3.1.0',
+285 silly installInDir      'gh-pages': '^1.2.0',
+285 silly installInDir      react: '^16.4.1',
+285 silly installInDir      'react-dom': '^16.4.1',
+285 silly installInDir      'react-scripts': '^1.1.4',
+285 silly installInDir      rollup: '^0.64.1',
+285 silly installInDir      'rollup-plugin-babel': '^3.0.7',
+285 silly installInDir      'rollup-plugin-commonjs': '^9.1.3',
+285 silly installInDir      'rollup-plugin-node-resolve': '^3.3.0',
+285 silly installInDir      'rollup-plugin-peer-deps-external': '^2.2.0',
+285 silly installInDir      'rollup-plugin-postcss': '^1.6.2',
+285 silly installInDir      'rollup-plugin-url': '^1.4.0',
+285 silly installInDir      immutable: '4.0.0-rc.9',
+285 silly installInDir      invariant: '^2.2.4',
+285 silly installInDir      recompose: '^0.30.0' } }
+286 silly installInDir writing tempJson { dependencies:
+286 silly installInDir    { 'babel-core': '^6.26.3',
+286 silly installInDir      'babel-eslint': '^8.2.5',
+286 silly installInDir      'babel-plugin-external-helpers': '^6.22.0',
+286 silly installInDir      'babel-preset-env': '^1.7.0',
+286 silly installInDir      'babel-preset-react': '^6.24.1',
+286 silly installInDir      'babel-preset-stage-0': '^6.24.1',
+286 silly installInDir      'cross-env': '^5.1.4',
+286 silly installInDir      eslint: '^5.0.1',
+286 silly installInDir      'eslint-config-standard': '^11.0.0',
+286 silly installInDir      'eslint-config-standard-react': '^6.0.0',
+286 silly installInDir      'eslint-plugin-import': '^2.13.0',
+286 silly installInDir      'eslint-plugin-node': '^7.0.1',
+286 silly installInDir      'eslint-plugin-promise': '^4.0.0',
+286 silly installInDir      'eslint-plugin-react': '^7.10.0',
+286 silly installInDir      'eslint-plugin-standard': '^3.1.0',
+286 silly installInDir      'gh-pages': '^1.2.0',
+286 silly installInDir      react: '^16.4.1',
+286 silly installInDir      'react-dom': '^16.4.1',
+286 silly installInDir      'react-scripts': '^1.1.4',
+286 silly installInDir      rollup: '^0.64.1',
+286 silly installInDir      'rollup-plugin-babel': '^3.0.7',
+286 silly installInDir      'rollup-plugin-commonjs': '^9.1.3',
+286 silly installInDir      'rollup-plugin-node-resolve': '^3.3.0',
+286 silly installInDir      'rollup-plugin-peer-deps-external': '^2.2.0',
+286 silly installInDir      'rollup-plugin-postcss': '^1.6.2',
+286 silly installInDir      'rollup-plugin-url': '^1.4.0',
+286 silly installInDir      'is-in-browser': '^1.1.3' } }
+287 silly getExecOpts { cwd: '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults' }
+288 silly installInDir [ 'npm', [ 'install' ] ]
+289 silly getExecOpts { cwd: '/Users/yutongchen/ucloud-vision-engine/packages/vision-components' }
+290 silly installInDir [ 'npm', [ 'install' ] ]
+291 silly getExecOpts { cwd: '/Users/yutongchen/ucloud-vision-engine/packages/vision-core' }
+292 silly installInDir [ 'npm', [ 'install' ] ]
+293 silly installInDir cleanup /Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json
+294 silly renameSync [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json.lerna_backup',
+294 silly renameSync   '/Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json' ]
+295 verbose installed leaf @ucloud-fe/vision-core
+296 silly installInDir cleanup /Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json
+297 silly renameSync [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json.lerna_backup',
+297 silly renameSync   '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json' ]
+298 verbose installed leaf @ucloud-fe/vision-defaults
+299 silly installInDir cleanup /Users/yutongchen/ucloud-vision-engine/packages/vision-components/package.json
+300 silly renameSync [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/package.json.lerna_backup',
+300 silly renameSync   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/package.json' ]
+301 verbose installed leaf @ucloud-fe/vision-components
+302 info Symlinking packages and binaries
+303 silly existsSync /Users/yutongchen/ucloud-vision-engine/packages/vision-core/package.json
+304 silly hasMatchingDependency @ucloud-fe/vision-components @ucloud-fe/vision-core
+305 silly existsSync /Users/yutongchen/ucloud-vision-engine/packages/vision-defaults/package.json
+306 silly hasMatchingDependency @ucloud-fe/vision-components @ucloud-fe/vision-defaults
+307 silly existsSync /Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe/vision-core
+308 silly existsSync /Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe/vision-defaults
+309 silly mkdirp /Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe
+310 silly symlink [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-core',
+310 silly symlink   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe/vision-core',
+310 silly symlink   'junction' ]
+311 silly createSymbolicLink [ '../../../vision-core',
+311 silly createSymbolicLink   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe/vision-core',
+311 silly createSymbolicLink   'junction' ]
+312 silly mkdirp /Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe
+313 silly symlink [ '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults',
+313 silly symlink   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe/vision-defaults',
+313 silly symlink   'junction' ]
+314 silly createSymbolicLink [ '../../../vision-defaults',
+314 silly createSymbolicLink   '/Users/yutongchen/ucloud-vision-engine/packages/vision-components/node_modules/@ucloud-fe/vision-defaults',
+314 silly createSymbolicLink   'junction' ]
+315 silly packageActions finished @ucloud-fe/vision-components
+316 silly packageActions finished @ucloud-fe/vision-core
+317 silly packageActions finished @ucloud-fe/vision-defaults
+318 info lifecycle postinstall
+319 silly runScript postinstall @ucloud-fe/vision-core
+320 silly @ucloud-fe/vision-core
+321 silly runScript postinstall @ucloud-fe/vision-defaults
+322 silly @ucloud-fe/vision-defaults
+323 silly runScript postinstall @ucloud-fe/vision-components
+324 silly @ucloud-fe/vision-components
+325 info lifecycle prepublish
+326 silly runScript prepublish @ucloud-fe/vision-core
+327 silly @ucloud-fe/vision-core
+328 silly runScript prepublish @ucloud-fe/vision-defaults
+329 silly @ucloud-fe/vision-defaults
+330 silly runScript prepublish @ucloud-fe/vision-components
+331 silly @ucloud-fe/vision-components
+332 info lifecycle prepare
+333 silly runScript prepare @ucloud-fe/vision-core
+334 silly runScriptInDir prepare [] vision-core
+335 silly getExecOpts { cwd: '/Users/yutongchen/ucloud-vision-engine/packages/vision-core' }
+336 silly runScript prepare @ucloud-fe/vision-defaults
+337 silly runScriptInDir prepare [] vision-defaults
+338 silly getExecOpts { cwd: '/Users/yutongchen/ucloud-vision-engine/packages/vision-defaults' }
+339 silly @ucloud-fe/vision-defaults
+340 silly @ucloud-fe/vision-core
+341 silly runScript prepare @ucloud-fe/vision-components
+342 silly runScriptInDir prepare [] vision-components
+343 silly getExecOpts { cwd: '/Users/yutongchen/ucloud-vision-engine/packages/vision-components' }
+344 silly @ucloud-fe/vision-components
+345 error execute Error occured with '@ucloud-fe/vision-components' while running 'npm run prepare'
+346 error npm run prepare [@ucloud-fe/vision-components] Output from stdout:
+347 error npm run prepare [@ucloud-fe/vision-components] Output from stderr:
+348 error execute Error occured with '@ucloud-fe/vision-components' while running 'npm run prepare'
