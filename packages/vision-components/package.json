@@ -56,14 +56,11 @@
         "rollup-plugin-postcss": "^1.6.2",
         "rollup-plugin-url": "^1.4.0"
     },
-    "files": [
-        "dist"
-    ],
+    "files": [ "dist" ],
     "dependencies": {
         "@material-ui/core": "^3.2.0",
         "@ucloud-fe/vision-core": "^1.0.1",
         "@ucloud-fe/vision-defaults": "^1.0.1",
-        "nanoid": "^1.2.6",
-        "shortid": "^2.2.13"
+        "nanoid": "^1.2.6"
     }
 }
