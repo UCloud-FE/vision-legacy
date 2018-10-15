@@ -59,10 +59,10 @@ export default class Modifier extends Component {
     }
 
     render() {
-        if (!isInBrowser) return null
+        const { children, readonly, surface, focused } = this.props
+        if (!isInBrowser) return surface
 
         this.calc()
-        const { children, readonly, surface, focused } = this.props
 
         return (
             <Fragment>
