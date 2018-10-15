@@ -1,13 +1,13 @@
 {
   "name": "example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.2.0",
     "@material-ui/icons": "^3.0.1",
-    "@ucloud-fe/vision-components": "^1.0.1",
-    "@ucloud-fe/vision-core": "^1.0.1",
-    "@ucloud-fe/vision-defaults": "^1.0.1",
+    "@ucloud-fe/vision-components": "^1.0.2",
+    "@ucloud-fe/vision-core": "^1.0.2",
+    "@ucloud-fe/vision-defaults": "^1.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4",

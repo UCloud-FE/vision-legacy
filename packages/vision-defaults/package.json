@@ -1,6 +1,6 @@
 {
     "name": "@ucloud-fe/vision-defaults",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "author": "https://github.com/tuoxiansp",
     "license": "MIT",
@@ -57,7 +57,9 @@
         "rollup-plugin-postcss": "^1.6.2",
         "rollup-plugin-url": "^1.4.0"
     },
-    "files": [ "dist" ],
+    "files": [
+        "dist"
+    ],
     "dependencies": {
         "is-in-browser": "^1.1.3"
     }
