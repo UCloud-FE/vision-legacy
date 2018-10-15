@@ -8,30 +8,31 @@ import url from 'rollup-plugin-url'
 import pkg from './package.json'
 
 export default {
-  input: 'src/index.js',
-  output: [
-    {
-      file: pkg.main,
-      format: 'cjs',
-      sourcemap: true
-    },
-    {
-      file: pkg.module,
-      format: 'es',
-      sourcemap: true
-    }
-  ],
-  plugins: [
-    external(),
-    postcss({
-      modules: true
-    }),
-    url(),
-    babel({
-      exclude: 'node_modules/**',
-      plugins: [ 'external-helpers' ]
-    }),
-    resolve(),
-    commonjs()
-  ]
+    input: 'src/index.js',
+    output: [
+        {
+            file: pkg.main,
+            format: 'cjs',
+            sourcemap: true,
+        },
+        {
+            file: pkg.module,
+            format: 'es',
+            sourcemap: true,
+        },
+    ],
+    plugins: [
+        external(),
+        postcss({
+            modules: true,
+        }),
+        url(),
+        babel({
+            //hack. see https://github.com/rollup/rollup-plugin-babel/issues/229
+            exclude: '../../node_modules/**',
+            plugins: [ 'external-helpers' ],
+        }),
+        resolve(),
+        commonjs(),
+    ],
 }
